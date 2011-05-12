@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5D84721A137C63EA0049AB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D847219137C63EA0049AB7A /* Foundation.framework */; };
 		5D84721D137C63EA0049AB7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D84721C137C63EA0049AB7A /* main.m */; };
+		5D847227137C64290049AB7A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D847226137C64290049AB7A /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +28,9 @@
 		5D847215137C63EA0049AB7A /* RGBtoCMYK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RGBtoCMYK; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D847219137C63EA0049AB7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5D84721C137C63EA0049AB7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5D84721F137C63EA0049AB7A /* RGBtoCMYK-Prefix.pch */ = {isa = PBXFileReference; path = "RGBtoCMYK-Prefix.pch"; sourceTree = "<group>"; };
+		5D84721F137C63EA0049AB7A /* RGBtoCMYK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RGBtoCMYK-Prefix.pch"; sourceTree = "<group>"; };
 		5D847220137C63EA0049AB7A /* RGBtoCMYK.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RGBtoCMYK.1; sourceTree = "<group>"; };
+		5D847226137C64290049AB7A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D847227137C64290049AB7A /* Cocoa.framework in Frameworks */,
 				5D84721A137C63EA0049AB7A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +66,7 @@
 		5D847218137C63EA0049AB7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D847226137C64290049AB7A /* Cocoa.framework */,
 				5D847219137C63EA0049AB7A /* Foundation.framework */,
 			);
 			name = Frameworks;
